@@ -5,7 +5,6 @@
 # `#01` Django: Modele oraz formularze
 
 
-Tutaj treść
 
 
 &nbsp;

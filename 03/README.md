@@ -1,4 +1,4 @@
-> :white_check_mark: *Jeśli będziesz mieć problem z rozwiązaniem tego zadania, poproś o pomoc na odpowiednim kanale na Slacku, tj. `s9e02-django-models-and-forms` (dotyczy [mentee](https://devmentor.pl/mentoring-javascript/)) lub na ogólnodostępnej i bezpłatnej [społeczności na Discordzie](https://devmentor.pl/discord). Pamiętaj, aby treść Twojego wpisu spełniała [odpowiednie kryteria](https://devmentor.pl/jak-prosic-o-pomoc/).*
+:white_check_mark: *Jeśli będziesz mieć problem z rozwiązaniem tego zadania, poproś o pomoc na odpowiednim kanale na Slacku, tj. `s9e02-django-models-and-forms` (dotyczy [mentee](https://devmentor.pl/mentoring-javascript/)) lub na ogólnodostępnej i bezpłatnej [społeczności na Discordzie](https://devmentor.pl/discord). Pamiętaj, aby treść Twojego wpisu spełniała [odpowiednie kryteria](https://devmentor.pl/jak-prosic-o-pomoc/).*
 
 &nbsp;
 
@@ -16,7 +16,7 @@ W tym zadaniu nie tworzysz modeli i nie zapisujesz danych do bazy danych.
   - `message` – pole typu `CharField` z `TextArea`, minimum 20 znaków.
 
 - Utwórz widok, który:
-  - dla metody GET wyświetla formularz,
+  - dla metody GET wyświetla formularz, Co
   - dla metody POST sprawdza poprawność danych i:
     - jeśli dane są poprawne, wyświetla komunikat „Dziękujemy za wiadomość!”,
     - jeśli dane są błędne, wyświetla formularz ponownie z informacjami o błędach.

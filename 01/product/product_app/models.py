@@ -1,5 +1,5 @@
 from django.db import models
-from django.core.validators import MinValueValidator
+from .validators import validate_price
 
 
 class Product(models.Model):
@@ -7,7 +7,7 @@ class Product(models.Model):
     price = models.DecimalField(
         max_digits=10,
         decimal_places=2,
-        validators=[MinValueValidator(0)]
+        validators=[validate_price]
     )
     in_stock = models.BooleanField(default=True)
     available_until = models.DateField(blank=True, null=True)
